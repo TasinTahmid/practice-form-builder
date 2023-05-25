@@ -7,7 +7,8 @@ function home() {
   return (
     <div>
       <Nav />
-      <h1>Welcome to homepage...</h1>
+      <h1>1. To Build a Form please click the create form button.</h1>
+      <h1>2. Then select the required fields and submit the fields along with a Form name.</h1>
       <button className='createform' onClick={() => navigate('/create-page')}>Create form</button>
     </div>
   )
